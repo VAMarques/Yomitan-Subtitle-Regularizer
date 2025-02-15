@@ -1,8 +1,8 @@
 import os
 import sys
 # Define input and output folders
-INPUT_FOLDER = "input" #sys.argv[1]
-OUTPUT_FOLDER = "output" #sys.argv[2]
+INPUT_FOLDER = sys.argv[1] # "input"
+OUTPUT_FOLDER = sys.argv[2] # "output"
 
 # Ensure output folder exists
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
